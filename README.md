@@ -24,14 +24,21 @@ Create a virtual environment
 python -m venv env
 env\Scripts\activate  # Windows
 source env/bin/activate  # macOS/Linux
+
+
 **Install dependencies**
 pip install -r requirements.txt
+
+
 **Run migrations**
 python manage.py makemigrations
 python manage.py migrate
-**Create a superuser**
 
+
+**Create a superuser**
 python manage.py createsuperuser
+
+
 **Run the server**
 python manage.py runserver
 API is available at: http://localhost:8000/api/
